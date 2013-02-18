@@ -2,15 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <title>Hyper Tension Survey</title>
 </head>
 <body>
   <script src="js/scripts.js"></script>
+    <hgroup></hgroup>
+    <article>
+    <form name="input" action="index.html" method="get" >
+
+    <h2>
+        Personal Details
+    </h2>
+    Name: <input type="text" placeholder="Name" required="required"  autocomplete autofocus/>
+    
+    <br />
+    Gender: <input type="radio" name="sex" value="male">Male
+    <input type="radio" name="sex" value="female">Female
+    <br />
+    Date of Birth: <input type="date" required="required"  name="bday" />
+    <br />
+    E-mail: <input type="email" name="usremail">
+    <br />
+
+
+    <input type="submit" value="complete" />
+    </form>
+    </article>
 </body>
 </html>
